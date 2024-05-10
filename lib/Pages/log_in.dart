@@ -46,6 +46,7 @@ class LogIn extends StatelessWidget {
             const MyTextField(
               heading: 'Password',
               hintText: '*********',
+              obscureText: true,
               icon: Icons.visibility_off,
             ),
 

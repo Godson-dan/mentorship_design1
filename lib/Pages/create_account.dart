@@ -92,6 +92,7 @@ class CreateAccount extends StatelessWidget {
               const MyTextField(
                 heading: 'Password',
                 hintText: '*********',
+                obscureText: true,
                 icon: Icons.visibility_off,
               ),
 
@@ -104,6 +105,7 @@ class CreateAccount extends StatelessWidget {
                 heading: 'Confirm Password',
                 hintText: '*********',
                 icon: Icons.visibility_off,
+                obscureText: true,
               ),
 
               //////////Privacy Policy///////////
@@ -136,7 +138,7 @@ class CreateAccount extends StatelessWidget {
                 ),
               ),
 
-              /////////Create Account///////////
+              /////////Create Account button///////////
               const SizedBox(
                 height: 15,
               ),
