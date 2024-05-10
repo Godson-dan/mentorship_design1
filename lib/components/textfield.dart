@@ -5,7 +5,7 @@ class MyTextField extends StatelessWidget {
   final String? hintText;
   final String? suffixText;
   final IconData? icon;
-  final bool? obscureText;
+  final bool obscureText;
 
   const MyTextField(
       {super.key,
@@ -13,7 +13,7 @@ class MyTextField extends StatelessWidget {
       this.hintText,
       this.suffixText,
       this.icon,
-      this.obscureText});
+      required this.obscureText});
 
   @override
   Widget build(BuildContext context) {
@@ -34,6 +34,7 @@ class MyTextField extends StatelessWidget {
         SizedBox(
           height: 55,
           child: TextField(
+            obscureText: obscureText,
             decoration: InputDecoration(
               enabledBorder: OutlineInputBorder(
                   borderSide: const BorderSide(color: Color(0xFFEBEAEA)),

@@ -42,6 +42,7 @@ class ForgotPassword extends StatelessWidget {
               const MyTextField(
                 heading: 'Email Address',
                 suffixText: '@gmail.com',
+                obscureText: false,
               ),
 
               /////////Forgot Password////////

@@ -35,6 +35,7 @@ class CreateAccount extends StatelessWidget {
               const MyTextField(
                 heading: 'Full Name',
                 hintText: 'Ibekwe Adaeze',
+                obscureText: false,
               ),
 
               ///////Age//////////
@@ -45,6 +46,7 @@ class CreateAccount extends StatelessWidget {
               const MyTextField(
                 heading: 'Age',
                 hintText: 'Enter your age',
+                obscureText: true,
               ),
 
               ///////Gender////////
@@ -82,6 +84,7 @@ class CreateAccount extends StatelessWidget {
               const MyTextField(
                 heading: 'Email Address(Optional)',
                 suffixText: '@gmail.com',
+                obscureText: false,
               ),
 
               //////////Password////////////////

@@ -36,6 +36,7 @@ class LogIn extends StatelessWidget {
             const MyTextField(
               heading: 'Email Address',
               hintText: 'Ibekwe Adaeze',
+              obscureText: false,
             ),
 
             ///////Password//////////
